@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/dlinking-lxy/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.8.0/9bada650e1afe9c6174ddc0d113c1fce4dc26fe0/glide-3.8.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.8.0_7f5c8ae5ce4973a36e7e814a2f636889719e483f/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/Object/xylibrary/unspecified/jars/libs/okhttp-2.1.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="7c559b53b6d2e44c2c7236dcd5b72b8b290e3bf0">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/8/okhttp-2.1.0_81eab521c5deacef7222d7bf1a2b3a1bbe5045b9/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/Object/xylibrary/unspecified/jars/libs/okio-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="555f6007b68b3cb41c59d27f8cd3366d8049fc97">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/8/okio-1.0.0_b8e2e97ebb1ad4de115583bae0e99120a49a98a6/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/1.6.0/e32c6b4bee8b61f0de12b337c48df0f5df8caccc/okhttp-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="e32c6b4bee8b61f0de12b337c48df0f5df8caccc">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-1.6.0_d84e0b97ad817357d0c9c484c57bfd35dcf31793/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="92f8b91349f13659a7958b07c64245334c4cab20">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_547597a607d91eea3ff0e21da784ca89ce49fb16/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="8a034dd16c0dfd75fe86c52c2cd581592acc684a">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.3.0_86e3e006dd299d1a3b381d07bf483f3fe5a8b8fa/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="3ae18d0cfed040ca8884656e616f645ac6c6f6c2">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_b49f75505a47e88e0ef29578f4511d72c7f4d614/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-urlconnection/1.6.0/375c2206eb7e52976955d0f8737be5e0ec9cf667/okhttp-urlconnection-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="375c2206eb7e52976955d0f8737be5e0ec9cf667">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-urlconnection-1.6.0_7e6e18a2d419bbb035929a20c100ba453290733e/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/design/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.3.0_2efe3587b33e3370bbb9a8b3612bcc8a97e8c0e2/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/Object/xylibrary/unspecified/jars/libs/universal-image-loader-1.9.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1bbae889c3d13f05d7d0884cbab10a45ce246234">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/8/universal-image-loader-1.9.4_51f64ee1cf36123592bfa498e3261873878e4dbc/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_be8fb46d83fe6df727da092196feff5c9b95faba/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.3.0/jars/libs/internal_impl-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="4da5a4d697d32497c6f85567a5112e62fdfd0676">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.3.0_14358239a2a58c2e273065e35924ed4588d0516a/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/Object/xylibrary/unspecified/jars/libs/fastjson-1.2.24.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0e1d523313af2be358c8862c475bddd518fd1f5a">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/8/fastjson-1.2.24_ecff1ac63edc44bb477ce933ab073d7fccfdb690/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/libs/okio-1.6.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="98476622f10715998eacf9240d6b479f12c66143">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/2/okio-1.6.0_7e82f2d3a078d571e6f6b09e930c95773c68c84f/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/23.3.0/support-annotations-23.3.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="db7791d75a07fef9844d06236c1c59ba7bf6997c">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.3.0_1c7b988705944753cb0308e729a70b52ef01064b/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/android_develop_tools/android-studio/gradle/m2repository/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a60a5e993c98c864010053cb901b7eab25306568">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.2.4_774469a8f80b0e0f6ee41906f882d85a5baad609/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="23be6993826b8fd88bbc8d14928bb3b8960d3d4e">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.3.0_db13e980ed41f3680da72c543fbcd284b2857508/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="1b8e03daaa43fb0a4cd57e378167c2fd70454c1e">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.3.0_eb0f1d27611c03d6ef5260e83526650d3bd72238/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/Object/xylibrary/unspecified/jars/libs/android-support-v4.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="0fde9dc75754a2a5854e1ef92070e51e8aa0c649">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/8/android-support-v4_6f772fbc720283b7409a328c0143cd3b0a19f482/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="debf30ce0a7560396b6235edef77e447006454c2">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.3.0_bf3d08a5f42570149dc7cfed957712e633a219a7/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/libs/okhttp-3.2.0.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="f7873a2ebde246a45c2a8d6f3247108b4c88a879">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/2/okhttp-3.2.0_8759c2082e96ef554a92923b98d1f73637e61146/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_a163e0b71873c3720eb860f662400a06a27cc7da/classes.dex" />
+    </item>
+    <item
+        jar="/home/dlinking-lxy/more-space/Object/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.3.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.2"
+        sha1="a0b5d60246cd9d4f3f2443611b3b4c25265840b5">
+        <dex dex="/home/dlinking-lxy/more-space/Object/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.3.0_8855814ca354b39680b8a6b31763f53d98d857fb/classes.dex" />
+    </item>
+
+</items>
