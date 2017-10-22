@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	style="@style/ll_horizontal_match_wrap" >
+
+	<RelativeLayout style="@style/ll_horizontal_match_wrap" >
+
+		<LinearLayout
+			android:id="@+id/ll_history_item_main"
+			style="@style/ll_horizontal_match_wrap"
+			android:padding="5dp" >
+
+			<LinearLayout
+				style="@style/ll_vertical_wrap_wrap"
+				android:gravity="left" >
+
+				<ImageView
+					android:id="@+id/iv_history_head"
+					style="@style/img_centercrop"
+					android:layout_width="60dp"
+					android:layout_height="60dp" />
+			</LinearLayout>
+
+			<LinearLayout
+				style="@style/ll_vertical_match_wrap"
+				android:gravity="left"
+				android:paddingLeft="10dp" >
+
+				<RelativeLayout style="@style/ll_vertical_match_wrap" >
+
+					<TextView
+						android:id="@+id/tv_history_name"
+						style="@style/text_middle_black"
+						android:layout_alignParentLeft="true"
+						android:text="Name" />
+
+					<TextView
+						android:id="@+id/tv_history_time"
+						style="@style/text_middle"
+						android:layout_alignParentRight="true"
+						android:layout_centerVertical="true"
+						android:text="2017/5/23  15:30"
+						android:textSize="10dp" />
+				</RelativeLayout>
+
+				<RelativeLayout style="@style/ll_horizontal_match_wrap" >
+
+					<TextView
+						android:id="@+id/tv_history_typeRed"
+						style="@style/text_middle"
+						android:layout_marginRight="5dp"
+						android:layout_toLeftOf="@+id/tv_history_payment"
+						android:text="加急"
+						android:textColor="@color/red"
+						android:textSize="10dp" />
+
+					<TextView
+						android:id="@+id/tv_history_payment"
+						style="@style/text_middle"
+						android:layout_alignParentRight="true"
+						android:text="5币"
+						android:textColor="@color/red"
+						android:textSize="10dp" />
+				</RelativeLayout>
+
+				<LinearLayout style="@style/ll_horizontal_match_wrap" >
+
+					<TextView
+						android:id="@+id/tv_history_sex"
+						style="@style/text_micro"
+						android:layout_width="18dp"
+						android:layout_height="18dp"
+						android:background="@drawable/circle_blue"
+						android:text="男"
+						android:textColor="@color/blue"
+						android:textSize="14dp" />
+
+					<TextView
+						android:id="@+id/tv_history_id"
+						style="@style/text_middle"
+						android:text="ID:"
+						android:textSize="14dp" />
+
+					<TextView
+						android:id="@+id/tv_history_phone"
+						style="@style/text_middle"
+						android:text="Phone:"
+						android:textSize="14dp" />
+				</LinearLayout>
+			</LinearLayout>
+		</LinearLayout>
+	</RelativeLayout>
+
+</LinearLayout>

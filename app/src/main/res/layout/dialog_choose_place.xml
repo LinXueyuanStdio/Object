@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.DialogTitle
+        android:id="@+id/title"
+        style="?android:attr/windowTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:ellipsize="end"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material"
+        android:singleLine="true"
+        android:text="地点"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:autoText="true"
+        android:id="@+id/et_place"
+        android:background="@drawable/help_background_rectangle_rounded"
+        android:hint="地点。。。"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:padding="5dp"
+        android:scrollbars="vertical" />
+
+</LinearLayout>

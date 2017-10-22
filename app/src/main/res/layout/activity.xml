@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/a"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <pub.object.system.ThemeSystem.widgets.TintToolbar
+        android:id="@+id/toolbar"
+        android:fitsSystemWindows="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/theme_color_primary"
+        android:minHeight="?attr/actionBarSize"
+        app:contentInsetStart="0.0dp"
+        app:layout_scrollFlags="enterAlways|scroll">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="?actionBarSize">
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_toLeftOf="@+id/bar_search"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_height="wrap_content">
+                        <ImageView
+                            android:id="@+id/bar_net"
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/actionbar_disco"
+                            android:clickable="true" />
+
+                        <ImageView
+                            android:id="@+id/bar_music"
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+
+                            android:background="@drawable/actionbar_music"
+                            android:clickable="true" />
+
+                        <ImageView
+                            android:id="@+id/bar_friends"
+                            android:layout_width="60dp"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/actionbar_friends"
+                            android:clickable="true" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/bar_search"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:scaleType="center"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="16dp"
+                android:background="@drawable/actionbar_search" />
+        </RelativeLayout>
+    </pub.object.system.ThemeSystem.widgets.TintToolbar>
+
+    <pub.object.surface.view.CustomPagerView
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/main_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" />
+
+</RelativeLayout>

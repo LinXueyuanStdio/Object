@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/ll_vertical_match_wrap">
+    
+    <RelativeLayout style="@style/ll_horizontal_match_wrap"
+        android:padding="5dp">
+
+        <LinearLayout
+            style="@style/ll_horizontal_match_wrap"
+            android:id="@+id/ll_help_item_main"
+            android:background="@drawable/help_background_rectangle"
+            android:layout_height="110dp">
+
+            <LinearLayout
+                style="@style/ll_vertical_wrap_wrap"
+                android:gravity="left" >
+
+                <ImageView
+                    android:id="@+id/iv_help_head"
+                    style="@style/iv_help_head"/>
+
+                <TextView
+                    android:id="@+id/tv_help_name"
+                    style="@style/text_middle_black"
+                    android:layout_gravity="center_horizontal"
+                    android:text="Name"
+                    android:textColor="@color/text_default"
+                     />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/ll_vertical_match_wrap"
+                android:gravity="left"
+                android:paddingLeft="10dp" >
+
+                <TextView
+                    android:id="@+id/tv_help_time"
+                    style="@style/text_middle"
+                    android:text="2017/5/23  15:30"
+                    android:textColor="@color/text_default"
+                     />
+
+                <LinearLayout style="@style/ll_horizontal_match_wrap" >
+
+                    <TextView
+                        android:id="@+id/tv_help_type"
+                        style="@style/text_middle"
+                        android:text="类型："
+                        android:textColor="@color/text_default"
+                         />
+
+                    <TextView
+                        android:id="@+id/tv_help_typeRed"
+                        style="@style/text_middle"
+                        android:text="加急"
+                        android:textColor="@color/red"
+                        />
+
+                    <TextView
+                        android:id="@+id/tv_help_pay"
+                        style="@style/text_middle"
+                        android:paddingLeft="20dp"
+                        android:text="报酬："
+                        android:textColor="@color/text_default"
+                         />
+
+                    <TextView
+                        android:id="@+id/tv_help_payRed"
+                        style="@style/text_middle"
+                        android:text="5帮派币"
+                        android:textColor="@color/red"
+                         />
+                </LinearLayout>
+
+                <LinearLayout style="@style/ll_horizontal_match_wrap" >
+
+                    <TextView
+                        android:id="@+id/tv_help_sex"
+                        style="@style/text_micro"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/circle_blue"
+                        android:text="男"
+                        android:textColor="@color/text_default" />
+
+                    <TextView
+                        android:id="@+id/tv_help_id"
+                        style="@style/text_middle"
+                        android:text="ID:"
+                        android:textColor="@color/blue" />
+
+                    <TextView
+                        android:id="@+id/tv_help_phone"
+                        style="@style/text_middle"
+                        android:text="Phone:"
+                        android:textColor="@color/text_default" />
+                </LinearLayout>
+
+                <RelativeLayout style="@style/ll_horizontal_match_wrap" >
+
+                    <LinearLayout
+                        style="@style/ll_horizontal_wrap_wrap"
+                        android:layout_alignParentRight="true" >
+
+                        <ImageView
+                            android:id="@+id/iv_help_help"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:src="@drawable/help_help" />
+
+                        <ImageView
+                            android:id="@+id/iv_help_chat"
+                            android:layout_width="24dp"
+                            android:layout_height="24dp"
+                            android:layout_marginLeft="12dp"
+                            android:layout_marginRight="12dp"
+                            android:src="@drawable/help_chat" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/help_mark_help" />
+    </RelativeLayout>
+</LinearLayout>

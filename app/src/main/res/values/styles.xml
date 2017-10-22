@@ -1,0 +1,97 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:actionOverflowButtonStyle">@style/MyOverflowStyle</item>
+        <!-- Customize your theme here. -->
+        <item name="alertDialogTheme">@style/AppTheme.Dialog.Alert</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowAnimationStyle">@style/NoAnimation</item>
+        <!--导航栏的颜色-->
+
+
+        <!--状态栏的颜色-->
+
+    </style>
+
+    <style name="MyOverflowStyle" parent="@android:style/Widget.ActionButton.Overflow">
+        <item name="android:src">@drawable/actionbar_more</item>
+    </style>
+
+    <style name="NoAnimation">
+
+        <item name="android:activityOpenEnterAnimation">@null</item>
+        <item name="android:activityOpenExitAnimation">@null</item>
+        <item name="android:activityCloseEnterAnimation">@null</item>
+        <item name="android:activityCloseExitAnimation">@null</item>
+        <item name="android:taskOpenEnterAnimation">@null</item>
+        <item name="android:taskOpenExitAnimation">@null</item>
+        <item name="android:taskCloseEnterAnimation">@null</item>
+        <item name="android:taskCloseExitAnimation">@null</item>
+        <item name="android:taskToFrontEnterAnimation">@null</item>
+        <item name="android:taskToFrontExitAnimation">@null</item>
+        <item name="android:taskToBackEnterAnimation">@null</item>
+        <item name="android:taskToBackExitAnimation">@null</item>
+
+    </style>
+
+    <style name="AppTheme.Dialog.Alert" parent="Theme.AppCompat.Light.Dialog.Alert"/>
+
+    <!--dialog-->
+    <style name="dialog_search_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="dialog_anim_slide_left" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_left</item>
+    </style>
+
+    <style name="dialog_anim_slide_up" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_slide_up</item>
+    </style>
+
+    <style name="dialog_anim_fade_out" mce_bogus="1" parent="android:Animation">
+        <item name="android:windowExitAnimation">@anim/dialog_exit_fade_out</item>
+    </style>
+    <!--/dialog-->
+
+    <!--topbar-->
+    <style name="topbar_bg_orange" parent="topbar_bg">
+        <item name="android:background">@color/orange_btn</item>
+    </style>
+    <!--/topbar-->
+    <!--bottom_tab-->
+    <style name="bottom_tab_ll" parent="ll_vertical_match_match">
+        <item name="android:width">0dp</item>
+    </style>
+
+    <style name="bottom_tab_iv" parent="img_icon_28_28"/>
+
+    <style name="bottom_tab_tv" parent="text_micro">
+        <item name="android:textColor">@color/black_to_white_selector</item>
+    </style>
+    <!--/bottom_tab-->
+
+    <!--publish-->
+    <style name="publish_iv" >
+        <item name="android:layout_width">320dp</item>
+        <item name="android:layout_height">320dp</item>
+    </style>
+    <!--/publish-->
+
+    <!--help-->
+    <style name="iv_help_head" parent="img_fitXY">
+        <item name="android:layout_width">72dp</item>
+        <item name="android:layout_height">72dp</item>
+    </style>
+    <style name="icon_help_default" parent="@style/img_icon_28_28"></style>
+    <style name="item_help_default" parent="@style/ll_vertical_match_wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dp</item>
+    </style>
+    <!--/help-->
+</resources>

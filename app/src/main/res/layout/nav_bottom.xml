@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              style="@style/ll_horizontal_match_wrap" >
+
+    <RelativeLayout
+        style="@style/match_wrap"
+        android:paddingRight="5dp"
+        android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/tv_publish_help"
+                style="@style/bottom_tab_tv"
+                android:layout_weight="1"
+                android:layout_toLeftOf="@+id/iv_publish_help_head"
+                android:text="发布帮助" />
+            <ImageView
+                android:id="@+id/iv_publish_help_head"
+                style="@style/bottom_tab_iv"
+                android:layout_weight="1"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/help_selector"/>
+    </RelativeLayout>
+    <RelativeLayout
+        style="@style/match_wrap"
+        android:paddingLeft="5dp"
+        android:layout_weight="1">
+            <ImageView
+                android:id="@+id/iv_publish_gethelp_head"
+                style="@style/bottom_tab_iv"
+                android:layout_weight="1"
+                android:src="@drawable/gethelp_selector" />
+            <TextView
+                android:id="@+id/tv_publish_gethelp"
+                style="@style/bottom_tab_tv"
+                android:layout_toRightOf="@+id/iv_publish_gethelp_head"
+                android:layout_weight="1"
+                android:text="发布求助"/>
+    </RelativeLayout>
+</LinearLayout>

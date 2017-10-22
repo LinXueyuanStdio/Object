@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.DialogTitle
+        android:id="@+id/title"
+        style="?android:attr/windowTitleStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:ellipsize="end"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingTop="@dimen/abc_dialog_padding_top_material"
+        android:singleLine="true"
+        android:text="选择金额"
+        android:textAlignment="viewStart"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingTop="?attr/dialogPreferredPadding">
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0.5元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.5元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2元"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="?attr/dialogPreferredPadding"
+        android:paddingRight="?attr/dialogPreferredPadding"
+        android:paddingTop="?attr/dialogPreferredPadding">
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2.5元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3.5元"/>
+
+        <android.support.v4.widget.Space
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible" />
+
+        <pub.object.system.ThemeSystem.widgets.TintRadioButton
+            android:id="@+id/rb_choose_money_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5元"/>
+    </LinearLayout>
+
+</LinearLayout>
